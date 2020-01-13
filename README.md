@@ -32,6 +32,9 @@ We're running **10.16.3**
 PM2 is not required but highly recommended. This will manage all your node apps once in production.
 This install can be tricky. There are many guides out there, but here's what worked for me.
 
+Edit: If the method below does not work for you, a fellow user found this link useful.
+https://stackoverflow.com/questions/38185590/pm2-command-not-found
+
 - We have pm2 running as a designated admin user on our server. Its a domain user but I don't think that matters.
 - Login to your server with that Admin user
 - Install pm2 on the cmd with "npm install pm2"
